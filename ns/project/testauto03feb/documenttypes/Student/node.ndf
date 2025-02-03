@@ -13,8 +13,9 @@
         <number name="createdDate" type="Long">1738566982647</number>
         <value name="lastModifiedBy">psur_admin</value>
         <value name="lastModifiedByUserId">828043ee46a24ca08d49e08535245a88</value>
-        <number name="lastModifiedDate" type="Long">1738566982664</number>
+        <number name="lastModifiedDate" type="Long">1738566989880</number>
       </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -22,12 +23,17 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">3b2859d4926347a78203af101576c345</value>
+    <value name="schemaDomain">aefab83c68a442a9ad1bb39142677bf0</value>
     <value name="originURI">student.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">true</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">shiporder</value>
         <value name="field_type">record</value>
@@ -39,6 +45,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">field</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">@orderid</value>
             <value name="field_type">string</value>
@@ -61,6 +72,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">orderperson</value>
             <value name="field_type">string</value>
@@ -83,6 +99,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">shipto</value>
             <value name="field_type">record</value>
@@ -186,6 +207,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">item</value>
             <value name="field_type">record</value>
